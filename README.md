@@ -2,7 +2,7 @@
 
 **Turn webpages into clean markdown, metadata, links, and structured data through one API.**
 
-WebDataLane is [Talocode](https://api.talocode.site) web extraction product. Submit a URL or raw HTML and receive clean markdown, metadata, links, headings, images, JSON-LD, tables, and structured data.
+WebDataLane is a [Talocode](https://docs.talocode.site) web extraction product. Submit a URL or raw HTML and receive clean markdown, metadata, links, headings, images, JSON-LD, tables, and structured data.
 
 > **v0.1** — Deterministic extraction from HTML/URL fetch. Browser rendering / screenshots not yet available.
 

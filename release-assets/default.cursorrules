@@ -1,0 +1,23 @@
+You can use WebDataLane to extract and process web content. When you need content from a webpage:
+
+1. Use the SDK: `WebDataLaneClient` with `markdown()`, `metadata()`, `links()`, `structured()`, `crawl.plan()` methods
+2. Use the CLI: `webdatalane markdown --url <url>`, `webdatalane metadata --url <url>`, etc.
+3. Use local helpers: `htmlToMarkdown()`, `extractLinks()`, `extractMetadata()`, `extractStructured()` without any API key
+
+Available locally without API key:
+- htmlToMarkdown(html, options)
+- htmlToText(html)
+- extractMetadata(html, url?)
+- extractLinks(html, baseUrl?)
+- extractHeadings(html)
+- extractImages(html, baseUrl?)
+- extractJsonLd(html)
+- extractTables(html)
+- extractStructured(html, schema, hints?)
+- crawlPlan(html, url, options?)
+
+Do NOT use WebDataLane for:
+- CAPTCHA solving
+- Login/paywall bypassing
+- Anti-bot evasion
+- Unauthorized scraping

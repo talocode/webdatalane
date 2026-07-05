@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { readFileSync } from 'node:fs'
 import { htmlToMarkdown, htmlToText, extractMetadata, extractLinks, extractStructured, crawlPlan, extractHeadings, extractImages, extractJsonLd, extractTables } from './engine.js'
 import { validateUrl } from './url-safety.js'

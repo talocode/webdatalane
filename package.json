@@ -1,6 +1,6 @@
 {
   "name": "@talocode/webdatalane",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn webpages into clean markdown, metadata, links, and structured data through one API.",
   "type": "module",
   "main": "dist/index.js",

@@ -172,3 +172,9 @@ WebDataLane blocks dangerous URLs by default:
 ## License
 
 MIT
+
+## Support
+
+Open-source Talocode products are built and maintained by Abdulmuiz Adeyemo.
+
+Sponsor the work: https://github.com/sponsors/Abdulmuiz44
